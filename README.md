@@ -26,7 +26,21 @@ Structure in this folder is:
 `global_flood_training`/`data/`<name of dataset e.g., WorldFloods, Sen1Floods11, usgs, unosat>/`generated` - this includes data that are being downloaded from GEE, but changes the format a bit, adds missing data sets (e.g., S1 in the case of WorldFloods), SEASONALWATERJRC (from GEE),
 and cloudprobability, when available. 
 
-All the resulting data (made avaible via the Zenodo links) is outputted to the `open_source_training` data folder. 
+All the resulting data (made available via the Zenodo links) is outputted to the `open_source_training` data folder. 
+
+## DOWNLOAD FLOODSNET DATA:
+
+FloodsNet harmonized data are available on Zenodo. The DOIs are listed below:
+
+* FloodsNet_0:      [10.5281/zenodo.11509627](https://zenodo.org/records/11509627?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjBiM2FjYmY3LTcwZDAtNGQ5NC04MGE4LWE1Mjk3ZmQzNmI2NCIsImRhdGEiOnt9LCJyYW5kb20iOiJkYmFlNmE5ODY5ZmFiZjBiMTgyOWFlNWFiMWUwZGY0OCJ9.dmhLRxevYD8_6OIVkrd_RRi4ojzQv89pNRuSLfDbYpmvm8fNB1HDoY30J9yW-_e4f5XaEKCOaCnfNc4__ipd6w)
+* FloodsNet_1:      [10.5281/zenodo.11540601](https://zenodo.org/records/11540601?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjZmZjgyOWEzLWU2NTktNDYzMC1iZWM5LTQ1Mjg2NzE4ODU5YiIsImRhdGEiOnt9LCJyYW5kb20iOiI1MGE0MjRjMGE1MGJlOWZjNWRlOGE1NGQzYzM2NjJhNCJ9.C_6vrwXtSMEVWRIn6qSdt8ZxmKNdGt0MCTXdhe5p-RFJy0f5ZQQhqqIQmbjn2h43HWtoE1knxtCLFhCA_LO2qQ)
+* FloodsNet_2:      [10.5281/zenodo.11549010](https://zenodo.org/records/11549010?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImI5NzI1NDU0LWZjYjEtNDM2NS04ZTc4LWY0ZTliNjhkMjhmMSIsImRhdGEiOnt9LCJyYW5kb20iOiI0NDcxYjk1M2E4ZDljYmU5NWFjMDYzNGU4YzA2Mjg4NCJ9.FS6-TYkYUFfxt_PbDUaRzZN5Y1L2k-1vzpceb8eEMPbHqHw7kXpCQo7jft2vkedmFDMHGPykEq8Q7CQQJwz6Fg)
+* FloodsNet_3:      [10.5281/zenodo.11555668](https://zenodo.org/records/11555668?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjhkNzJkNzU5LTc3MzMtNGQyOC04NmJhLTRkYWUxYTBmMzU3NSIsImRhdGEiOnt9LCJyYW5kb20iOiI5Mzg0YzJlY2FkMWE5YmQ4YWIwZGQwOGY4Yjc0Y2YyZCJ9.QVj2B40c7aDVaAJqlR9-MJPSQHZwL3v6nQd311g16M-QOg0Jy6ykHWAnZemQfcvTSeGoFNJ24ih7GVNoMBqkNg)
+* FloodsNet_4:      [10.5281/zenodo.11563108](https://zenodo.org/records/11563108?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjlmMjlkNzU3LTY1YzgtNDY5Ni05NjNhLTZlZWFkYWM3Mzk3YiIsImRhdGEiOnt9LCJyYW5kb20iOiJlYzAxMDU2ZDA3MjdkZDNlNDllNDJlMmJkYmYxNDAyYyJ9.aRjclJBlUSzx3m5G2bgdV9PSfFwaH6xk9xEhy4I89ov_Ik_ATJk06mKiWOdaqla-ExEkcjzpBzwRRcjRdkAhfg)
+* FloodsNet_5:      [10.5281/zenodo.11584556](https://zenodo.org/records/11584556?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjJhNDJkNjk0LTEwNDItNGE5Ny05YjBjLTdhY2U0MWM1MWM3MSIsImRhdGEiOnt9LCJyYW5kb20iOiI2OGNjZjc5YTNlMjdjY2I2NjcyOWUxNzNlNWE0NGVhYSJ9.8o4oW6JJ3_778815zQdY-PNxjS3GykeanFqDWp8mKBQJNfkViORdlUkfiYrHNjQqmRLrWAQ1pAoZ4MRA3ET70w)
+* FloodsNet_Code:   [10.5281/zenodo.11625676](https://zenodo.org/uploads/11625676?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjAzZWExMTg0LWJiOWYtNGU4Yy05OTA5LWJkOGUwZjViOGJlMyIsImRhdGEiOnt9LCJyYW5kb20iOiI1NDRlMzkwMmU1ODhiMGRkYWU2ZGMxYWIzYzU3OWE3OCJ9.b7xHBTUX4n10cI2qyjIgo6uDfIbH5GgldX9s7cn2QWXHtiDIpN9Hpzhc7RJSikV0HixDDlTpQqDJeCNEuZK-5w)
+
+## INDIVIDUAL DATASETS:
 
 Details about the training data sets:
 
