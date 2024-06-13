@@ -1,0 +1,44 @@
+# A conda environment for harmonizing global flood training data.
+#
+# Usage:
+#   $ conda env create --file=global_flood_training.yml
+#   $ source activate global_flood_training
+
+#   if needing to add another package and update the env use the below:
+#   $ conda env update --file global_flood_training.yml 
+
+name: global_flood_training
+
+channels:
+  - conda-forge
+dependencies:
+  - python =3.9
+  - pip
+  - numpy
+  - pandas
+  - notebook
+  - glob2
+  - matplotlib
+  - seaborn
+  - python-dotenv
+  - tenacity
+
+  # spatial packages
+  - gdal
+  - rasterio
+  - geopandas
+  - scikit-image
+  - earthpy
+  - rasterstats
+  - descartes
+  - cartopy
+  - xarray
+  - netcdf4
+  - h5netcdf
+  - rioxarray
+  - earthengine-api
+
+  - pip:
+    - wget
+    - geetools
+    - geocube
